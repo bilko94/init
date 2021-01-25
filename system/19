@@ -1,0 +1,8 @@
+# List all services which are started at boot time and name this kind of services
+systemctl list-unit-files --type=services
+
+# to check current states enabled on the moment
+--state=enabled
+
+$ to check masksed states on the moment
+--states=masked

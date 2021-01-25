@@ -1,0 +1,4 @@
+#!/bin/bash
+USER=deletemelater
+sudo kill `pgrep -u $USER`
+sudo deluser $USER

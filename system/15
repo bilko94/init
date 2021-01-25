@@ -1,0 +1,5 @@
+# to find PID
+ps
+
+# Find the command that kills the background command’s process
+sudo kill [PID]

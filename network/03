@@ -1,0 +1,1 @@
+ip -j link |jq -r '.[] | select(.ifname=="wlan0")| .address'

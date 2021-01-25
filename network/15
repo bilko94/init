@@ -1,0 +1,13 @@
+#Reroute intra.42.fr address to 46.19.122.85
+
+Edit the hosts file
+
+sudo vim /etc/hosts
+
+Add a new line to the bottom of the file:
+
+46.19.122.85 intra.42.fr
+
+esc. :wq and enter. (save the file)
+
+Accessing 'intra.42.fr' in the browser should point you to a RHEL test page.

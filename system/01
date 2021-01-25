@@ -1,0 +1,4 @@
+/etc/debian_version
+
+# use this inside the ect folder to see version
+while read line; do echo $line; done < debian_version

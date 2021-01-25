@@ -1,0 +1,1 @@
+netstat -i | awk '!/Kernel|Iface/{print $1}'

@@ -1,0 +1,8 @@
+ssh session:
+New user needs read/write permmissions on ~/.ssh/rsa_id
+Add the new generated public ssh key to ~/.ssh/rsa_id
+ssh into vm with $> ssh <user>@<vm_ip>
+
+graphic session:
+connect as a new graphical session user
+$> su - <username>

@@ -1,0 +1,6 @@
+# Before starting have the Below installations.
+apt install openssh-client
+apt install openssh-server
+
+# Name the command that determines the state of the SSH service.
+sudo service ssh status
